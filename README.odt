@@ -1,0 +1,59 @@
+¿Que es git?
+Git es el Sistema de Control de Versiones más utilizado en la actualidad. Desde su nacimiento en 2005, Git ha evolucionado y madurado para ser fácil de usar siempre basándose en una serie de características que le permiten destacar del resto de soluciones similares . 
+
+Metodología Git Flow
+
+Git Flow es una estrategia creada para mejorar la organización de Branchs (ramificaciones) dentro del repositorio y, de esta forma, dar más fluidez al proceso de nuevos Features y Releases. 
+
+Esta metodologia me parece la mas indicada para utilizar ya que se adapta muy bien a la evolucion y al crecimiento es decir , da igual lo grande que sea el equipo ya que esta estrategia es adaptable  y tambien beneficia al desarrollo paralelo , ya que se puede trabajar simultaneamente sin interrupcion
+
+
+Pasos a seguir 
+
+El Usuario 1 crea las ramas desarrollo , produccion y test para la estructura de la metodologia 
+
+
+
+
+
+El usuario 2 se dispone a crear dos features que son las secciones que tiene que implementar , estas ramas cuando esten completas se fusionaran con la rama desarrollo (su rama padre)
+
+
+El usuario 3 crea la ultima rama feature 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ahora el usuario 1 fusiona todas las ramas features a la rama desarrollo y despues fusiona la rama desarrollo a la rama main 
+
+
+
+
+
+
+
+
+
+Ahora el usuario 1 etiqueta la version 1.0 y crea la rama test 
+
+
+
+
+
+
+
